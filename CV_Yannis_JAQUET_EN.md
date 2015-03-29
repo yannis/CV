@@ -15,7 +15,7 @@ I co-organize the Ruby user group in Geneva, [Geneva.rb](http://meetup.com/genev
 
 - Main programming languages: Ruby, Javascript
 - Frameworks/librairies: Ruby on Rails, Ember, jQuery, Bootstrap
-- Databases: MySQL, Postgres
+- Databases: MySQL, PostgreSQL
 - Design: HTML5, CSS3
 - Version control: Git
 - Operating system: Mac OS X

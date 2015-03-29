@@ -15,7 +15,7 @@ Je co-organise les réunions du groupe d'utilisateurs de Ruby à Genève [Geneva
 
 - Languages de programmation principaux: Ruby, Javascript
 - Frameworks/librairies: Ruby on Rails, Ember, jQuery, Bootstrap
-- Bases de données: MySQL, Postgres
+- Bases de données: MySQL, PostgreSQL
 - Design: HTML5, CSS3
 - Contrôle de version: Git
 - Système d'exploitation: Apple OS X
