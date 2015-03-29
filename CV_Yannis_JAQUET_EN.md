@@ -1,46 +1,48 @@
-# Yannis JAQUET (27.07.1974)
+# Yannis JAQUET
 
-Adjoint scientifique, University of Geneva
+Adjoint scientifique, University of Geneva<br />
+27.07.1974, Swiss, married, two children<br />
 
-34 rue Maurice Braillard<br />
-1202 Genève<br />
-022 345 93 11<br />
-078 615 30 44<br />
-yannisjaquet@mac.com<br />
-[yannisjaquet.com](yannisjaquet.com)<br />
-[Github](http://github.com/yannis_)<br />
-[Twitter](http://twitter.com/yannis_)
+## Profile
 
-Suisse, marié, deux enfants
+I am a full stack web developper with a life sciences background.
 
-## Profil
+I design, engineer and host web applications and websites with Ruby (Ruby on Rails) and Javascript (Ember.js).
 
-I am a self-taught full stack Developper at the Department of Genetics and Evolution, University of Geneva.
-
-I'm designing, engineering and hosting websites and web tools for scientists with Ruby (Ruby on Rails) and Javascript (Ember.js).
+I co-organize the Ruby user group in Geneva, [Geneva.rb](http://meetup.com/genevarb).
 
 ## Technical skills
 
-- Programming languages: Ruby, Javascript, PHP
-- Frameworks/librairies: Ruby on Rails, Ember,jQuery
+- Main programming languages: Ruby, Javascript
+- Frameworks/librairies: Ruby on Rails, Ember, jQuery, Bootstrap
 - Databases: MySQL, Postgres
 - Design: HTML5, CSS3
-- Versioning: Git
-- Operating system: Mac Os X
+- Version control: Git
+- Operating system: Mac OS X
 
-## Expériences
+The majority of my work beeing done in the Ruby/Rails ecosystem, here is a non-exhaustive list of the Rubygems I use the most: devise, cancancan, rspec, capybara, sass, haml, paperclip, carrierwave, nokogiri, kaminari, redcarpet, activeadmin,capistrano, god, eye…
 
-### Depuis 2005
+## Experience
 
-Je design et réalise des sites internets et des applications web pour les scientifiques du Département de Génétique et Evolution, le plus souvent avec le framework (Ruby on Rails) et depuis plus récemment avec Emberjs pour la partie front-end:
+### Since 2005
 
-  - détermination des spécifications
-  - choix des librairies
-  - design
-  - developement
-  - test
-  - déploiement et hosting
-  - maintenance et performance
+I build websites and web applications for scientists at the Department of Genetics and Evolution, University of Geneva. My tasks include:
+
+- Listing the project specifications
+- Designing the user interface (UI) and experience (UX)
+- Backend developement (Ruby on Rails)
+- Frontend development (Ember.js, jQuery)
+- Unit and integration tests
+- Deployment and hosting
+- Maintenance, bug tracking and performance
+
+Here are some of the **publicly accessible** projects I have built:
+
+- bioSeminars ([bioseminars.unige.ch](http://bioseminars.unige.ch))
+- foramBarcoding ([forambarcoding.unige.ch](http://forambarcoding.unige.ch))
+- Department of Genetics & Evolution ([genev.unige.ch](http://genev.unige.ch))
+- Master in Biology (GDE) ([gde.unige.ch](http://gde.unige.ch))
+- The Paul Brönnimann Foundation ([fpb.unige.ch](http://fpb.unige.ch))
 
 ## Studies
 
@@ -49,3 +51,14 @@ Je design et réalise des sites internets et des applications web pour les scien
 - 1997: Bachelor in Biology, University of Geneva
 - 1993: Maturité Fédérale, Collège Sismondi, Genève
 
+## Contact
+
+Yannis Jaquet<br />
+34, rue Maurice Braillard<br />
+1202 Genève<br />
+022 345 93 11<br />
+078 615 30 44<br />
+yannisjaquet@mac.com<br />
+[yannisjaquet.com](yannisjaquet.com)<br />
+[Github](http://github.com/yannis_)<br />
+[Twitter](http://twitter.com/yannis_)
