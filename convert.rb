@@ -8,17 +8,19 @@ class CvConverter
     @markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new(with_toc_data: true), autolink: true, tables: true)
 
     @french_md = File.read('CV_Yannis_JAQUET_FR.md')
-    @french_html = File.open("CV_Yannis_JAQUET_FR.html", "w") { |file|
+    @french_html = File.open("tmp/CV_Yannis_JAQUET_FR.html", "w") { |file|
       file.write temp("CV Yannis Jaquet FR"){@markdown.render @french_md}
+      file.close
     }
 
     @english_md = File.read('CV_Yannis_JAQUET_EN.md')
-    @english_html = File.open("CV_Yannis_JAQUET_EN.html", "w") { |file|
+    @english_html = File.open("tmp/CV_Yannis_JAQUET_EN.html", "w") { |file|
       file.write temp("CV Yannis Jaquet EN"){@markdown.render @english_md}
+      file.close
     }
 
-    system 'wkhtmltopdf CV_Yannis_JAQUET_EN.html CV_Yannis_JAQUET_EN.pdf'
-    system 'wkhtmltopdf CV_Yannis_JAQUET_FR.html CV_Yannis_JAQUET_FR.pdf'
+    system 'wkhtmltopdf tmp/CV_Yannis_JAQUET_EN.html tmp/CV_Yannis_JAQUET_EN.pdf'
+    system 'wkhtmltopdf tmp/CV_Yannis_JAQUET_FR.html tmp/CV_Yannis_JAQUET_FR.pdf'
 
   end
 
