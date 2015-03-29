@@ -5,7 +5,7 @@ Adjoint scientifique, Université de Genève<br />
 
 ## Profil
 
-Je suis un développeur Full-Stack avec une éducations dans le domaine des sciences de la vie.
+Je suis un développeur Full-Stack avec une éducation dans le domaine des sciences de la vie.
 
 Je conçois, développe et héberge des applications web et des sites internet avec Ruby (Ruby on Rails) et Javascript (Ember.js).
 
@@ -17,7 +17,7 @@ Je co-organise les réunions du groupe d'utilisateurs de Ruby à Genève [Geneva
 - Frameworks/librairies: Ruby on Rails, Ember, jQuery, Bootstrap
 - Bases de données: MySQL, Postgres
 - Design: HTML5, CSS3
-- Controle de version: Git
+- Contrôle de version: Git
 - Système d'exploitation: Apple OS X
 
 Comme l'essentiel de mon travail est effectué dans un environnement Ruby/Rails, voici une liste non exhaustive des principales Rubygems que j'utilise: devise, cancancan, rspec, capybara, sass, haml, paperclip, carrierwave, nokogiri, kaminari, redcarpet, activeadmin, capistrano, god, eye…
@@ -30,9 +30,9 @@ Je développe des sites web et des applications web pour les chercheurs du Dépa
 
 - la détermination des spécifications des projets
 - la conception de l'interface utilitisateur et de l'expérience utilisateur
-- le dévelopment backend (Ruby on Rails)
-- le dévelopment frontend (Ember.js, jQuery)
-- les test unitaires et d'intégration
+- le développement backend (Ruby on Rails)
+- le développement frontend (Ember.js, jQuery)
+- les tests unitaires et d'intégration
 - le déploiement et l'hébergement
 - la maintenance et le suivi des bugs
 
@@ -54,11 +54,7 @@ Voici une liste des projets **publiquement accessibles** que j'ai développés:
 ## Contact
 
 Yannis Jaquet<br />
-34, rue Maurice Braillard<br />
-1202 Genève<br />
-022 345 93 11<br />
-078 615 30 44<br />
+34, rue Maurice Braillard, 1202 Genève<br />
+022 345 93 11, 078 615 30 44
 yannisjaquet@mac.com<br />
-[yannisjaquet.com](yannisjaquet.com)<br />
-[github](http://github.com/yannis_)<br />
-[twitter](http://twitter.com/yannis_)
+[yannisjaquet.com](yannisjaquet.com) | [github](http://github.com/yannis_) | [twitter](http://twitter.com/yannis_)

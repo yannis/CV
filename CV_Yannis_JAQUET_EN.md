@@ -54,11 +54,6 @@ Here are some of the **publicly accessible** projects I have built:
 ## Contact
 
 Yannis Jaquet<br />
-34, rue Maurice Braillard<br />
-1202 Genève<br />
-022 345 93 11<br />
-078 615 30 44<br />
-yannisjaquet@mac.com<br />
-[yannisjaquet.com](yannisjaquet.com)<br />
-[Github](http://github.com/yannis_)<br />
-[Twitter](http://twitter.com/yannis_)
+34, rue Maurice Braillard, 1202 Genève<br />
+022 345 93 11, 078 615 30 44<br />
+yannisjaquet@mac.com | [yannisjaquet.com](yannisjaquet.com) | [github](http://github.com/yannis_) | [twitter](http://twitter.com/yannis_)

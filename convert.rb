@@ -335,32 +335,36 @@ class CvConverter
     %Q(
 body {
   font-family: Helvetica, arial, sans-serif;
+  color: #000000;
+  font-size: 12px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+
 }
 h1 {
-  color: #333333;
-        font-family: Helvetica, arial, sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: normal;
-  line-height: 48px;
+  line-height: 36px;
   margin: 0;
 }
 
 h2 {
-  color: #333333;
-        font-family: Helvetica, arial, sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 36px;
-  margin: 0 0 12px;
+  margin: 0 0 6px;
 }
 
 h3 {
-  color: #333333;
-        font-family: Helvetica, arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  margin: 0 0 6px;
+  margin: 0 0 10px;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
 }
 
 .subheader {
@@ -371,20 +375,17 @@ h3 {
 }
 
 p, ul {
-  color: #333333;
-        font-family: Helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6em;
-  margin: 0 0 14px;
+  font-family: Helvetica, arial, sans-serif;
+  margin: 0 0 6px;
 }
 
 a {
-  color: #ff8000;
-  text-decoration: none;
+  color: #e17102;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #ff0000;
+  color: #db0002;
 }
 
 )
