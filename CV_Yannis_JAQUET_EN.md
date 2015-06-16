@@ -17,10 +17,10 @@ I co-organize the Ruby user group in Geneva, [Geneva.rb](http://meetup.com/genev
 - Frameworks/librairies: Ruby on Rails, Ember, jQuery, Bootstrap
 - Databases: MySQL, PostgreSQL
 - Design: HTML5, CSS3
-- Version control: Git
+- Version control: Git, Github
 - Operating system: Mac OS X
 
-The majority of my work beeing done in the Ruby/Rails ecosystem, here is a non-exhaustive list of the Rubygems I use the most: devise, cancancan, rspec, capybara, sass, haml, paperclip, carrierwave, nokogiri, kaminari, redcarpet, activeadmin,capistrano, god, eye…
+The majority of my work beeing done in the Ruby/Rails ecosystem, here is a non-exhaustive list of the Rubygems I use the most: devise, cancancan, rspec, capybara, sass, haml, paperclip, carrierwave, nokogiri, kaminari, redcarpet, activeadmin, capistrano, unicorn, god, eye…
 
 ## Experience
 
