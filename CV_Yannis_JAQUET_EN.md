@@ -1,48 +1,77 @@
 # Yannis JAQUET
 
-Adjoint scientifique, University of Geneva<br />
-27.07.1974, Swiss, married, two children<br />
+<div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px;">
+  <div>
+    System specialist, EPFL
+    <br>27.07.1974
+    <br>Swiss, married, two children
+  </div>
+  <div>
+    8, ch. Dr Jean-Louis Prévost
+    <br>1202 Genève
+    <br>078 615 30 44
+  </div>
+  <div>
+    <i class="fa-solid fa-envelope"></i>
+    yannisjaquet@mac.com
+    <br>
+    <i class="fa-solid fa-globe"></i>
+    <a href="https://yannisjaquet.com">yannisjaquet.com</a>
+    <br>
+    <i class="fa-brands fa-github"></i>
+    <a href="https://github.com/yannis_">yannis</a>
+    <br>
+    <i class="fa-brands fa-twitter"></i>
+    <a href="https://twitter.com/yannis_">yannis_</a>
+  </div>
+</div>
 
 ## Profile
 
 I am a full stack web developper with a life sciences background.
 
-I design, engineer and host web applications and websites with Ruby (Ruby on Rails) and Javascript (Ember.js).
+I design, engineer and deploy web applications and websites with Ruby (Ruby on Rails) and Javascript.
 
-I co-organize the Ruby user group in Geneva, [Geneva.rb](http://meetup.com/genevarb).
+Pre-COVID, I was the main organizer of [GenevaWeb](https://www.meetup.com/genevaweb) a Meetup group for anyone interested in web technologies.
 
 ## Technical skills
 
 - Main programming languages: Ruby, Javascript
-- Frameworks/librairies: Ruby on Rails, Ember, jQuery, Bootstrap
-- Databases: MySQL, PostgreSQL
+- Frameworks/librairies: Ruby on Rails, React, Bootstrap, Tailwind
+- Databases: PostgreSQL
 - Design: HTML5, CSS3
 - Version control: Git, Github
 - Operating system: Mac OS X
 
-The majority of my work beeing done in the Ruby/Rails ecosystem, here is a non-exhaustive list of the Rubygems I use the most: devise, cancancan, rspec, capybara, sass, haml, paperclip, carrierwave, nokogiri, kaminari, redcarpet, activeadmin, capistrano, unicorn, god, eye…
+The majority of my work beeing done in the Ruby/Rails ecosystem, here is a non-exhaustive list of the Rubygems I often use: Devise, Cancancan, Pundit, Rspec, Capybara, Paperclip, Carrierwave, Activeadmin, ...
 
 ## Experience
 
-### Since 2005
+### Since 2015
 
-I build websites and web applications for scientists at the Department of Genetics and Evolution, University of Geneva. My tasks include:
+I build web applications for the [Digital Epidemiology Laboratory](https://www.digitalepidemiologylab.org) at EPFL, lead by Prof. Marcel Salathé.
 
-- Listing the project specifications
-- Designing the user interface (UI) and experience (UX)
+Between 2016 and 2021, I was seconded to the [EPFL Extension School](https://www.extensionschool.ch) to develop the learner platform.
+
+My main tasks include:
+
+- Listing project specifications
+- Designing user interfaces (UI) and experiences (UX)
 - Backend developement (Ruby on Rails)
-- Frontend development (Ember.js, jQuery)
+- Frontend development (React, Hotwire)
 - Unit and integration tests
-- Deployment and hosting
-- Maintenance, bug tracking and performance
+- Maintenance, bug tracking and performance optimization
 
-Here are some of the **publicly accessible** projects I have built:
+Here are some of the **publicly accessible** projects I have worked on:
 
-- bioSeminars ([bioseminars.unige.ch](http://bioseminars.unige.ch))
-- foramBarcoding ([forambarcoding.unige.ch](http://forambarcoding.unige.ch))
-- Department of Genetics & Evolution ([genev.unige.ch](http://genev.unige.ch))
-- Master in Biology (GDE) ([gde.unige.ch](http://gde.unige.ch))
-- The Paul Brönnimann Foundation ([fpb.unige.ch](http://fpb.unige.ch))
+- [myfoodrepo.org](https://myfoodrepo.org/)
+- [foodrepo.org](https://www.foodrepo.org/)
+- [extensionschool.ch](https://www.extensionschool.ch)
+- [mydigitalfuture.ch](https://www.mydigitalfuture.ch/)
+
+### Between 2005 and 2014
+
+I worked as a web developer for the [Department of Genetics and Evolution](https://genev.unige.ch) at the University of Geneva. There, I built websites and web applications for scientists with PHP and Ruby On Rails.
 
 ## Studies
 
@@ -50,10 +79,3 @@ Here are some of the **publicly accessible** projects I have built:
 - 1998: Master in Biology, University of Geneva
 - 1997: Bachelor in Biology, University of Geneva
 - 1993: Maturité Fédérale, Collège Sismondi, Genève
-
-## Contact
-
-Yannis Jaquet<br />
-34, rue Maurice Braillard, 1202 Genève<br />
-022 345 93 11, 078 615 30 44<br />
-yannisjaquet@mac.com | [yannisjaquet.com](yannisjaquet.com) | [github](http://github.com/yannis_) | [twitter](http://twitter.com/yannis_)

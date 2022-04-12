@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.2.0"
+ruby "3.1.1"
 
 gem "redcarpet"
 gem 'wicked_pdf'

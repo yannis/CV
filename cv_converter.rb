@@ -1,30 +1,29 @@
-require 'rubygems'
-require 'bundler/setup'
-require 'redcarpet'
-class CvConverter
+require "rubygems"
+require "bundler/setup"
+require "redcarpet"
 
+class CvConverter
   def initialize
     @markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new(with_toc_data: true), autolink: true, tables: true)
 
-    @french_md = File.read('CV_Yannis_JAQUET_FR.md')
+    @french_md = File.read("CV_Yannis_JAQUET_FR.md")
     @french_html = File.open("tmp/CV_Yannis_JAQUET_FR.html", "w") { |file|
-      file.write temp("CV Yannis Jaquet FR"){@markdown.render @french_md}
+      file.write temp("CV Yannis Jaquet FR") { @markdown.render @french_md }
       file.close
     }
 
-    @english_md = File.read('CV_Yannis_JAQUET_EN.md')
+    @english_md = File.read("CV_Yannis_JAQUET_EN.md")
     @english_html = File.open("tmp/CV_Yannis_JAQUET_EN.html", "w") { |file|
-      file.write temp("CV Yannis Jaquet EN"){@markdown.render @english_md}
+      file.write temp("CV Yannis Jaquet EN") { @markdown.render @english_md }
       file.close
     }
 
-    system 'wkhtmltopdf tmp/CV_Yannis_JAQUET_EN.html tmp/CV_Yannis_JAQUET_EN.pdf'
-    system 'wkhtmltopdf tmp/CV_Yannis_JAQUET_FR.html tmp/CV_Yannis_JAQUET_FR.pdf'
-
+    system "wkhtmltopdf tmp/CV_Yannis_JAQUET_EN.html tmp/CV_Yannis_JAQUET_EN.pdf"
+    system "wkhtmltopdf tmp/CV_Yannis_JAQUET_FR.html tmp/CV_Yannis_JAQUET_FR.pdf"
   end
 
   def temp(title)
-    temp = [ %Q(
+    temp = [%(
 <!doctype html>
 <html lang="en">
   <head>
@@ -34,6 +33,9 @@ class CvConverter
     <style>
       #{css_orange}
     </style>
+    <head>
+      <script src="https://kit.fontawesome.com/2120613c82.js" crossorigin="anonymous"></script>
+    </head>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -41,7 +43,7 @@ class CvConverter
   <body>
     )]
     temp << yield
-    temp << %Q(
+    temp << %(
   </body>
 </html>
     )
@@ -49,15 +51,13 @@ class CvConverter
   end
 
   def css_github
-    %Q(
+    %(
       body {
-        font-family: Helvetica, arial, sans-serif;
+        font-family: Roboto, Helvetica, arial, sans-serif;
         font-size: 14px;
         line-height: 1.6;
-        padding-top: 10px;
-        padding-bottom: 10px;
         background-color: white;
-        padding: 30px; }
+        padding: 50px; }
 
       body > *:first-child {
         margin-top: 0 !important; }
@@ -85,10 +85,6 @@ class CvConverter
         -webkit-font-smoothing: antialiased;
         cursor: text;
         position: relative; }
-
-      h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
-        background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;
-        text-decoration: none; }
 
       h1 tt, h1 code {
         font-size: inherit; }
@@ -134,7 +130,6 @@ class CvConverter
         margin: 15px 0; }
 
       hr {
-        background: transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;
         border: 0 none;
         color: #cccccc;
         height: 4px;
@@ -166,10 +161,10 @@ class CvConverter
       ul, ol {
         padding-left: 30px; }
 
-      ul :first-child, ol :first-child {
+      ul:first-child, ol:first-child {
         margin-top: 0; }
 
-      ul :last-child, ol :last-child {
+      ul:last-child, ol:last-child {
         margin-bottom: 0; }
 
       dl {
@@ -182,25 +177,25 @@ class CvConverter
           margin: 15px 0 5px; }
           dl dt:first-child {
             padding: 0; }
-          dl dt > :first-child {
+          dl dt >:first-child {
             margin-top: 0; }
-          dl dt > :last-child {
+          dl dt >:last-child {
             margin-bottom: 0; }
         dl dd {
           margin: 0 0 15px;
           padding: 0 15px; }
-          dl dd > :first-child {
+          dl dd >:first-child {
             margin-top: 0; }
-          dl dd > :last-child {
+          dl dd >:last-child {
             margin-bottom: 0; }
 
       blockquote {
         border-left: 4px solid #dddddd;
         padding: 0 15px;
         color: #777777; }
-        blockquote > :first-child {
+        blockquote >:first-child {
           margin-top: 0; }
-        blockquote > :last-child {
+        blockquote >:last-child {
           margin-bottom: 0; }
 
       table {
@@ -223,9 +218,9 @@ class CvConverter
             text-align: left;
             margin: 0;
             padding: 6px 13px; }
-          table tr th :first-child, table tr td :first-child {
+          table tr th:first-child, table tr td:first-child {
             margin-top: 0; }
-          table tr th :last-child, table tr td :last-child {
+          table tr th:last-child, table tr td:last-child {
             margin-bottom: 0; }
 
       img {
@@ -327,19 +322,21 @@ class CvConverter
         pre code, pre tt {
           background-color: transparent;
           border: none; }
+
+
 )
   end
 
   def css_orange
-    %Q(
+    %(
 body {
-  font-family: Helvetica, arial, sans-serif;
-  color: #000000;
+  font-family: Roboto, Helvetica, arial, sans-serif;
+  color: #2b2d2f;
   font-size: 12px;
   line-height: 1.5em;
   margin: 0;
-  padding: 0;
-
+  padding: 20px 25px;
+  max-width: 1000px;
 }
 h1 {
   font-size: 24px;
@@ -349,21 +346,18 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 36px;
-  margin: 0 0 6px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 12px 0 8px;
+  border-bottom: 1px solid #eee;
 }
 
 h3 {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  margin: 0 0 10px;
-}
-
-h2 {
-  border-bottom: 1px solid #eee;
+  margin: 0;
 }
 
 .subheader {
@@ -374,19 +368,28 @@ h2 {
 }
 
 p, ul {
-  font-family: Helvetica, arial, sans-serif;
+  font-family: Roboto, Helvetica, arial, sans-serif;
   margin: 0 0 6px;
 }
 
 a {
-  color: #e17102;
-  text-decoration: underline;
+  color: #cc5500;
+  text-decoration: none;
 }
 
 a:hover {
   color: #db0002;
 }
 
+i {
+  color: #a9a9a9;
+}
+
+@media print {
+  a::after{
+    content: " (" attr(href) ")";
+  }
+}
 )
   end
 end
