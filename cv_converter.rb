@@ -5,19 +5,19 @@ require "redcarpet"
 class CvConverter
   def initialize
     @markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new(with_toc_data: true), autolink: true, tables: true)
-
     @french_md = File.read("CV_Yannis_JAQUET_FR.md")
-    @french_html = File.open("tmp/CV_Yannis_JAQUET_FR.html", "w") { |file|
+    @english_md = File.read("CV_Yannis_JAQUET_EN.md")
+  end
+
+  def call
+    File.open("tmp/CV_Yannis_JAQUET_FR.html", "w") { |file|
       file.write temp("CV Yannis Jaquet FR") { @markdown.render @french_md }
       file.close
     }
-
-    @english_md = File.read("CV_Yannis_JAQUET_EN.md")
-    @english_html = File.open("tmp/CV_Yannis_JAQUET_EN.html", "w") { |file|
+    File.open("tmp/CV_Yannis_JAQUET_EN.html", "w") { |file|
       file.write temp("CV Yannis Jaquet EN") { @markdown.render @english_md }
       file.close
     }
-
     system "wkhtmltopdf tmp/CV_Yannis_JAQUET_EN.html tmp/CV_Yannis_JAQUET_EN.pdf"
     system "wkhtmltopdf tmp/CV_Yannis_JAQUET_FR.html tmp/CV_Yannis_JAQUET_FR.pdf"
   end
@@ -33,9 +33,6 @@ class CvConverter
     <style>
       #{css_orange}
     </style>
-    <head>
-      <script src="https://kit.fontawesome.com/2120613c82.js" crossorigin="anonymous"></script>
-    </head>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -47,7 +44,7 @@ class CvConverter
   </body>
 </html>
     )
-    return temp.join()
+    temp.join
   end
 
   def css_github
@@ -381,8 +378,12 @@ a:hover {
   color: #db0002;
 }
 
-i {
-  color: #a9a9a9;
+table {
+  width: 100%;
+}
+
+table td {
+  vertical-align: top;
 }
 
 @media print {

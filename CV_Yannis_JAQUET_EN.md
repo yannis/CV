@@ -1,81 +1,71 @@
 # Yannis JAQUET
 
-<div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px;">
-  <div>
-    System specialist, EPFL
-    <br>27.07.1974
-    <br>Swiss, married, two children
-  </div>
-  <div>
-    8, ch. Dr Jean-Louis Prévost
-    <br>1202 Genève
-    <br>078 615 30 44
-  </div>
-  <div>
-    <i class="fa-solid fa-envelope"></i>
-    yannisjaquet@mac.com
-    <br>
-    <i class="fa-solid fa-globe"></i>
-    <a href="https://yannisjaquet.com">yannisjaquet.com</a>
-    <br>
-    <i class="fa-brands fa-github"></i>
-    <a href="https://github.com/yannis_">yannis</a>
-    <br>
-    <i class="fa-brands fa-twitter"></i>
-    <a href="https://twitter.com/yannis_">yannis_</a>
-  </div>
-</div>
+||||
+|-------------------------|-----------------------------|--------------------------------------------------------|
+| System Specialist, EPFL | 8, Dr Jean-Louis Prévost St | Email: [yannisjaquet@mac.com](mailto:yannisjaquet@mac.com) |
+| 27.07.1974              | 1202 Geneva                 | Website: [yannisjaquet.com](https://yannisjaquet.com)  |
+| Swiss, married, two children | +41 78 615 30 44     | Mastodon: [@yannis@ruby.social](https://ruby.social/@yannis)           |
 
 ## Profile
 
-I am a full stack web developper with a life sciences background.
+I am a full-stack web developer with a background in life sciences. I specialize in designing, engineering, and deploying web applications and websites using Ruby (Ruby on Rails) and JavaScript.
 
-I design, engineer and deploy web applications and websites with Ruby (Ruby on Rails) and Javascript.
+Prior to COVID-19, I organized two meetups in Geneva: Geneva.rb for Ruby/Rails developers and GenevaWeb, a meetup covering various web technologies.
 
-Pre-COVID, I was the main organizer of [GenevaWeb](https://www.meetup.com/genevaweb) a Meetup group for anyone interested in web technologies.
+## Technical Skills
 
-## Technical skills
-
-- Main programming languages: Ruby, Javascript
-- Frameworks/librairies: Ruby on Rails, React, Bootstrap, Tailwind
+- Main Programming Languages: Ruby, JavaScript
+- Frameworks/Libraries: Ruby on Rails, React, Bootstrap, Tailwind
 - Databases: PostgreSQL
 - Design: HTML5, CSS3
-- Version control: Git, Github
-- Operating system: Mac OS X
+- Version Control: Git, GitHub
+- Operating System: macOS
+- Containerization: Docker
+- Project Management: GitHub
 
-The majority of my work beeing done in the Ruby/Rails ecosystem, here is a non-exhaustive list of the Rubygems I often use: Devise, Cancancan, Pundit, Rspec, Capybara, Paperclip, Carrierwave, Activeadmin, ...
+As the majority of my work revolves around the Ruby/Rails ecosystem, here is a non-exhaustive list of the Rubygems I frequently use: Devise, Pundit, Cancancan, Rspec, Capybara, Activeadmin, ...
 
 ## Experience
 
 ### Since 2015
 
-I build web applications for the [Digital Epidemiology Laboratory](https://www.digitalepidemiologylab.org) at EPFL, lead by Prof. Marcel Salathé.
+I build web applications for the [Digital Epidemiology Laboratory](https://www.digitalepidemiologylab.org) at EPFL, led by Prof. Marcel Salathé.
 
-Between 2016 and 2021, I was seconded to the [EPFL Extension School](https://www.extensionschool.ch) to develop the learner platform.
+From 2016 to 2021, I was seconded to the [EPFL Extension School](https://www.extensionschool.ch) to develop the learner platform.
 
-My main tasks include:
+My main responsibilities include:
 
-- Listing project specifications
-- Designing user interfaces (UI) and experiences (UX)
-- Backend developement (Ruby on Rails)
-- Frontend development (React, Hotwire)
-- Unit and integration tests
-- Maintenance, bug tracking and performance optimization
+- Designing user interfaces (UI) and user experiences (UX)
+- Backend development using Ruby on Rails
+- Frontend development using React and Hotwire
+- Unit and integration testing with Rspec and Capybara
+- Maintenance, bug tracking, and performance optimization
+- Project management on GitHub, including issue specification, estimation, and code reviews
 
-Here are some of the **publicly accessible** projects I have worked on:
+Here are some of the publicly accessible projects I have worked on:
 
 - [myfoodrepo.org](https://myfoodrepo.org/)
-- [foodrepo.org](https://www.foodrepo.org/)
-- [extensionschool.ch](https://www.extensionschool.ch)
-- [mydigitalfuture.ch](https://www.mydigitalfuture.ch/)
+- [foodrepo.org](https://foodrepo.org/)
+- [extensionschool.ch](https://learn.extensionschool.ch)
 
 ### Between 2005 and 2014
 
-I worked as a web developer for the [Department of Genetics and Evolution](https://genev.unige.ch) at the University of Geneva. There, I built websites and web applications for scientists with PHP and Ruby On Rails.
+I worked as a web developer for the [Department of Genetics and Evolution](https://genev.unige.ch) at the University of Geneva. During this time, I built websites and web applications for scientists using PHP and Ruby on Rails.
 
-## Studies
+## Education
 
-- 2004: PhD thesis in Biology, University of Geneva
-- 1998: Master in Biology, University of Geneva
-- 1997: Bachelor in Biology, University of Geneva
-- 1993: Maturité Fédérale, Collège Sismondi, Genève
+- 2004: PhD in Biology, University of Geneva
+- 1998: Master's in Biology, University of Geneva
+- 1997: Bachelor's in Biology, University of Geneva
+- 1993: Maturité Fédérale, Collège Sismondi, Geneva
+
+## Languages
+
+- French: Native
+- English: Fluent
+- German: Basic
+- Italian: Basic
+
+## Hobbies
+
+- Kendo: I have been practicing kendo since the age of 8 and currently hold a 6 Dan rank. I am actively involved in teaching at the [Geneva Kendo Club](https://sdkbudo.ch/kendo). I'm an also an ex national champion (individual and team), national team member and coach.

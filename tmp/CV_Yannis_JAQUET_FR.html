@@ -59,8 +59,12 @@ a:hover {
   color: #db0002;
 }
 
-i {
-  color: #a9a9a9;
+table {
+  width: 100%;
+}
+
+table td {
+  vertical-align: top;
 }
 
 @media print {
@@ -70,9 +74,6 @@ i {
 }
 
     </style>
-    <head>
-      <script src="https://kit.fontawesome.com/2120613c82.js" crossorigin="anonymous"></script>
-    </head>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -80,72 +81,105 @@ i {
   <body>
     <h1 id="yannis-jaquet">Yannis JAQUET</h1>
 
-<p>Adjoint scientifique, Université de Genève<br />
-27.07.1974, suisse, marié, deux enfants<br /></p>
+<table><thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Spécialiste système, EPFL</td>
+<td>8, Rue Dr Jean-Louis Prévost</td>
+<td>Email : <a href="mailto:yannisjaquet@mac.com">yannisjaquet@mac.com</a></td>
+</tr>
+<tr>
+<td>27.07.1974</td>
+<td>1202 Genève</td>
+<td>Site Web : <a href="https://yannisjaquet.com">yannisjaquet.com</a></td>
+</tr>
+<tr>
+<td>Suisse, marié, deux enfants</td>
+<td>+41 78 615 30 44</td>
+<td>Mastodon : <a href="https://ruby.social/@yannis">@yannis@ruby.social</a></td>
+</tr>
+</tbody></table>
 
 <h2 id="profil">Profil</h2>
 
-<p>Je suis un développeur Full-Stack avec une éducation dans le domaine des sciences de la vie.</p>
+<p>Je suis un développeur web full-stack avec une formation en sciences de la vie. Je me spécialise dans la conception, l&#39;ingénierie et le déploiement d&#39;applications web et de sites web utilisant Ruby (Ruby on Rails) et JavaScript.</p>
 
-<p>Je conçois, développe et héberge des applications web et des sites internet avec Ruby (Ruby on Rails) et Javascript (Ember.js).</p>
-
-<p>Je co-organise les réunions du groupe d&#39;utilisateurs de Ruby à Genève <a href="http://meetup.com/genevarb">Geneva.rb</a>.</p>
+<p>Avant la COVID-19, j&#39;ai organisé deux meetups à Genève : Geneva.rb pour les développeurs Ruby/Rails et GenevaWeb, une rencontre portant sur diverses technologies web.</p>
 
 <h2 id="comp-tences-techniques">Compétences techniques</h2>
 
 <ul>
-<li>Languages de programmation principaux: Ruby, Javascript</li>
-<li>Frameworks/librairies: Ruby on Rails, Ember, jQuery, Bootstrap</li>
-<li>Bases de données: MySQL, PostgreSQL</li>
-<li>Design: HTML5, CSS3</li>
-<li>Contrôle de version: Git</li>
-<li>Système d&#39;exploitation: Apple OS X</li>
+<li>Principaux langages de programmation : Ruby, JavaScript</li>
+<li>Frameworks/Bibliothèques : Ruby on Rails, React, Bootstrap, Tailwind</li>
+<li>Bases de données : PostgreSQL</li>
+<li>Design : HTML5, CSS3</li>
+<li>Contrôle de version : Git, GitHub</li>
+<li>Système d&#39;exploitation : macOS</li>
+<li>Conteneurisation : Docker</li>
+<li>Gestion de projet : GitHub</li>
 </ul>
 
-<p>Comme l&#39;essentiel de mon travail est effectué dans un environnement Ruby/Rails, voici une liste non exhaustive des principales Rubygems que j&#39;utilise: devise, cancancan, rspec, capybara, sass, haml, paperclip, carrierwave, nokogiri, kaminari, redcarpet, activeadmin, capistrano, god, eye…</p>
+<p>Étant donné que la majeure partie de mon travail tourne autour de l&#39;écosystème Ruby/Rails, voici une liste non exhaustive des Rubygems que j&#39;utilise fréquemment : Devise, Pundit, Cancancan, Rspec, Capybara, Activeadmin, ...</p>
 
 <h2 id="exp-rience">Expérience</h2>
 
-<h3 id="depuis-2005">Depuis 2005</h3>
+<h3 id="depuis-2015">Depuis 2015</h3>
 
-<p>Je développe des sites web et des applications web pour les chercheurs du Département de Génétique et Évolution à l&#39;Université de Genève. Mes tâches comprennent:</p>
+<p>Je développe des applications web pour le <a href="https://www.digitalepidemiologylab.org">Laboratoire d&#39;épidémiologie numérique</a> à l&#39;EPFL, dirigé par le Prof. Marcel Salathé.</p>
 
-<ul>
-<li>la détermination des spécifications des projets</li>
-<li>la conception de l&#39;interface utilitisateur et de l&#39;expérience utilisateur</li>
-<li>le développement backend (Ruby on Rails)</li>
-<li>le développement frontend (Ember.js, jQuery)</li>
-<li>les tests unitaires et d&#39;intégration</li>
-<li>le déploiement et l&#39;hébergement</li>
-<li>la maintenance et le suivi des bugs</li>
-</ul>
+<p>De 2016 à 2021, j&#39;ai été détaché à l&#39;<a href="https://www.extensionschool.ch">EPFL Extension School</a> pour développer la plateforme d&#39;apprentissage.</p>
 
-<p>Voici une liste des projets <strong>publiquement accessibles</strong> que j&#39;ai développés:</p>
+<p>Mes principales responsabilités comprennent :</p>
 
 <ul>
-<li>bioSeminars (<a href="http://bioseminars.unige.ch">bioseminars.unige.ch</a>)</li>
-<li>foramBarcoding (<a href="http://forambarcoding.unige.ch">forambarcoding.unige.ch</a>)</li>
-<li>Department of Genetics &amp; Evolution (<a href="http://genev.unige.ch">genev.unige.ch</a>)</li>
-<li>Master in Biology (GDE) (<a href="http://gde.unige.ch">gde.unige.ch</a>)</li>
-<li>The Paul Brönnimann Foundation (<a href="http://fpb.unige.ch">fpb.unige.ch</a>)</li>
+<li>Conception d&#39;interfaces utilisateur (UI) et d&#39;expériences utilisateur (UX)</li>
+<li>Développement backend avec Ruby on Rails</li>
+<li>Développement frontend avec React et Hotwire</li>
+<li>Tests unitaires et d&#39;intégration avec Rspec et Capybara</li>
+<li>Maintenance, suivi des bogues et optimisation des performances</li>
+<li>Gestion de projet sur GitHub, y compris la spécification des problèmes, l&#39;estimation et les révisions de code</li>
 </ul>
 
-<h2 id="tudes">Études</h2>
+<p>Voici quelques projets accessibles au public sur lesquels j&#39;ai travaillé :</p>
 
 <ul>
-<li>2004: Thèse de Doctorat ès Science, mention Biologique, Université de Genève</li>
-<li>1998: Master en Biologie, Université de Genève</li>
-<li>1997: Bachelor en Biologie, Université de Genève</li>
-<li>1993: Maturité Fédérale, Collège Sismondi, Genève</li>
+<li><a href="https://myfoodrepo.org/">myfoodrepo.org</a></li>
+<li><a href="https://foodrepo.org/">foodrepo.org</a></li>
+<li><a href="https://learn.extensionschool.ch">extensionschool.ch</a></li>
 </ul>
 
-<h2 id="contact">Contact</h2>
+<h3 id="entre-2005-et-2014">Entre 2005 et 2014</h3>
 
-<p>Yannis Jaquet<br />
-34, rue Maurice Braillard, 1202 Genève<br />
-022 345 93 11, 078 615 30 44
-<a href="mailto:yannisjaquet@mac.com">yannisjaquet@mac.com</a><br />
-<a href="yannisjaquet.com">yannisjaquet.com</a> | <a href="http://github.com/yannis_">github</a> | <a href="http://twitter.com/yannis_">twitter</a></p>
+<p>J&#39;ai travaillé en tant que développeur web pour le <a href="https://genev.unige.ch">Département de génétique et évolution</a> à l&#39;Université de Genève. Pendant cette période, j&#39;ai développé des sites web et des applications web pour des scientifiques en utilisant PHP et Ruby on Rails.</p>
+
+<h2 id="formation">Formation</h2>
+
+<ul>
+<li>2004 : Doctorat en biologie, Université de Genève</li>
+<li>1998 : Master en biologie, Université de Genève</li>
+<li>1997 : Licence en biologie, Université de Genève</li>
+<li>1993 : Maturité fédérale, Collège Sismondi, Genève</li>
+</ul>
+
+<h2 id="langues">Langues</h2>
+
+<ul>
+<li>Français : Langue maternelle</li>
+<li>Anglais : Courant</li>
+<li>Allemand : Notions de base</li>
+<li>Italien : Notions de base</li>
+</ul>
+
+<h2 id="loisirs">Loisirs</h2>
+
+<ul>
+<li>Kendo : Je pratique le kendo depuis l&#39;âge de 8 ans et je détiens actuellement un grade de 6e Dan. Je suis activement impliqué dans l&#39;enseignement au <a href="https://sdkbudo.ch/kendo">Geneva Kendo Club</a>. J&#39;ai également été champion national (individuel et par équipe), membre de l&#39;équipe nationale et entraîneur.</li>
+</ul>
 
   </body>
 </html>

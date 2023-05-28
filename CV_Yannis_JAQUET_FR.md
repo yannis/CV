@@ -1,60 +1,71 @@
 # Yannis JAQUET
 
-Adjoint scientifique, Université de Genève<br />
-27.07.1974, suisse, marié, deux enfants<br />
+||||
+|-------------------------|-----------------------------|--------------------------------------------------------|
+| Spécialiste système, EPFL | 8, Rue Dr Jean-Louis Prévost | Email : [yannisjaquet@mac.com](mailto:yannisjaquet@mac.com) |
+| 27.07.1974              | 1202 Genève                 | Site Web : [yannisjaquet.com](https://yannisjaquet.com)  |
+| Suisse, marié, deux enfants | +41 78 615 30 44     | Mastodon : [@yannis@ruby.social](https://ruby.social/@yannis)           |
 
 ## Profil
 
-Je suis un développeur Full-Stack avec une éducation dans le domaine des sciences de la vie.
+Je suis un développeur web full-stack avec une formation en sciences de la vie. Je me spécialise dans la conception, l'ingénierie et le déploiement d'applications web et de sites web utilisant Ruby (Ruby on Rails) et JavaScript.
 
-Je conçois, développe et héberge des applications web et des sites internet avec Ruby (Ruby on Rails) et Javascript (Ember.js).
-
-Je co-organise les réunions du groupe d'utilisateurs de Ruby à Genève [Geneva.rb](http://meetup.com/genevarb).
+Avant la COVID-19, j'ai organisé deux meetups à Genève : Geneva.rb pour les développeurs Ruby/Rails et GenevaWeb, une rencontre portant sur diverses technologies web.
 
 ## Compétences techniques
 
-- Languages de programmation principaux: Ruby, Javascript
-- Frameworks/librairies: Ruby on Rails, Ember, jQuery, Bootstrap
-- Bases de données: MySQL, PostgreSQL
-- Design: HTML5, CSS3
-- Contrôle de version: Git
-- Système d'exploitation: Apple OS X
+- Principaux langages de programmation : Ruby, JavaScript
+- Frameworks/Bibliothèques : Ruby on Rails, React, Bootstrap, Tailwind
+- Bases de données : PostgreSQL
+- Design : HTML5, CSS3
+- Contrôle de version : Git, GitHub
+- Système d'exploitation : macOS
+- Conteneurisation : Docker
+- Gestion de projet : GitHub
 
-Comme l'essentiel de mon travail est effectué dans un environnement Ruby/Rails, voici une liste non exhaustive des principales Rubygems que j'utilise: devise, cancancan, rspec, capybara, sass, haml, paperclip, carrierwave, nokogiri, kaminari, redcarpet, activeadmin, capistrano, god, eye…
+Étant donné que la majeure partie de mon travail tourne autour de l'écosystème Ruby/Rails, voici une liste non exhaustive des Rubygems que j'utilise fréquemment : Devise, Pundit, Cancancan, Rspec, Capybara, Activeadmin, ...
 
 ## Expérience
 
-### Depuis 2005
+### Depuis 2015
 
-Je développe des sites web et des applications web pour les chercheurs du Département de Génétique et Évolution à l'Université de Genève. Mes tâches comprennent:
+Je développe des applications web pour le [Laboratoire d'épidémiologie numérique](https://www.digitalepidemiologylab.org) à l'EPFL, dirigé par le Prof. Marcel Salathé.
 
-- la détermination des spécifications des projets
-- la conception de l'interface utilitisateur et de l'expérience utilisateur
-- le développement backend (Ruby on Rails)
-- le développement frontend (Ember.js, jQuery)
-- les tests unitaires et d'intégration
-- le déploiement et l'hébergement
-- la maintenance et le suivi des bugs
+De 2016 à 2021, j'ai été détaché à l'[EPFL Extension School](https://www.extensionschool.ch) pour développer la plateforme d'apprentissage.
 
-Voici une liste des projets **publiquement accessibles** que j'ai développés:
+Mes principales responsabilités comprennent :
 
-- bioSeminars ([bioseminars.unige.ch](http://bioseminars.unige.ch))
-- foramBarcoding ([forambarcoding.unige.ch](http://forambarcoding.unige.ch))
-- Department of Genetics & Evolution ([genev.unige.ch](http://genev.unige.ch))
-- Master in Biology (GDE) ([gde.unige.ch](http://gde.unige.ch))
-- The Paul Brönnimann Foundation ([fpb.unige.ch](http://fpb.unige.ch))
+- Conception d'interfaces utilisateur (UI) et d'expériences utilisateur (UX)
+- Développement backend avec Ruby on Rails
+- Développement frontend avec React et Hotwire
+- Tests unitaires et d'intégration avec Rspec et Capybara
+- Maintenance, suivi des bogues et optimisation des performances
+- Gestion de projet sur GitHub, y compris la spécification des problèmes, l'estimation et les révisions de code
 
-## Études
+Voici quelques projets accessibles au public sur lesquels j'ai travaillé :
 
-- 2004: Thèse de Doctorat ès Science, mention Biologique, Université de Genève
-- 1998: Master en Biologie, Université de Genève
-- 1997: Bachelor en Biologie, Université de Genève
-- 1993: Maturité Fédérale, Collège Sismondi, Genève
+- [myfoodrepo.org](https://myfoodrepo.org/)
+- [foodrepo.org](https://foodrepo.org/)
+- [extensionschool.ch](https://learn.extensionschool.ch)
 
-## Contact
+### Entre 2005 et 2014
 
-Yannis Jaquet<br />
-34, rue Maurice Braillard, 1202 Genève<br />
-022 345 93 11, 078 615 30 44
-yannisjaquet@mac.com<br />
-[yannisjaquet.com](yannisjaquet.com) | [github](http://github.com/yannis_) | [twitter](http://twitter.com/yannis_)
+J'ai travaillé en tant que développeur web pour le [Département de génétique et évolution](https://genev.unige.ch) à l'Université de Genève. Pendant cette période, j'ai développé des sites web et des applications web pour des scientifiques en utilisant PHP et Ruby on Rails.
+
+## Formation
+
+- 2004 : Doctorat en biologie, Université de Genève
+- 1998 : Master en biologie, Université de Genève
+- 1997 : Licence en biologie, Université de Genève
+- 1993 : Maturité fédérale, Collège Sismondi, Genève
+
+## Langues
+
+- Français : Langue maternelle
+- Anglais : Courant
+- Allemand : Notions de base
+- Italien : Notions de base
+
+## Loisirs
+
+- Kendo : Je pratique le kendo depuis l'âge de 8 ans et je détiens actuellement un grade de 6e Dan. Je suis activement impliqué dans l'enseignement au [Geneva Kendo Club](https://sdkbudo.ch/kendo). J'ai également été champion national (individuel et par équipe), membre de l'équipe nationale et entraîneur.

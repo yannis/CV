@@ -59,8 +59,12 @@ a:hover {
   color: #db0002;
 }
 
-i {
-  color: #a9a9a9;
+table {
+  width: 100%;
+}
+
+table td {
+  vertical-align: top;
 }
 
 @media print {
@@ -70,9 +74,6 @@ i {
 }
 
     </style>
-    <head>
-      <script src="https://kit.fontawesome.com/2120613c82.js" crossorigin="anonymous"></script>
-    </head>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -80,92 +81,104 @@ i {
   <body>
     <h1 id="yannis-jaquet">Yannis JAQUET</h1>
 
-<div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 10px;">
-  <div>
-    System specialist, EPFL
-    <br>27.07.1974
-    <br>Swiss, married, two children
-  </div>
-  <div>
-    8, ch. Dr Jean-Louis Prévost
-    <br>1202 Genève
-    <br>078 615 30 44
-  </div>
-  <div>
-    <i class="fa-solid fa-envelope"></i>
-    yannisjaquet@mac.com
-    <br>
-    <i class="fa-solid fa-globe"></i>
-    <a href="https://yannisjaquet.com">yannisjaquet.com</a>
-    <br>
-    <i class="fa-brands fa-github"></i>
-    <a href="https://github.com/yannis_">yannis</a>
-    <br>
-    <i class="fa-brands fa-twitter"></i>
-    <a href="https://twitter.com/yannis_">yannis_</a>
-  </div>
-</div>
+<table><thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead><tbody>
+<tr>
+<td>System Specialist, EPFL</td>
+<td>8, Dr Jean-Louis Prévost St</td>
+<td>Email: <a href="mailto:yannisjaquet@mac.com">yannisjaquet@mac.com</a></td>
+</tr>
+<tr>
+<td>27.07.1974</td>
+<td>1202 Geneva</td>
+<td>Website: <a href="https://yannisjaquet.com">yannisjaquet.com</a></td>
+</tr>
+<tr>
+<td>Swiss, married, two children</td>
+<td>+41 78 615 30 44</td>
+<td>Mastodon: <a href="https://ruby.social/@yannis">@yannis@ruby.social</a></td>
+</tr>
+</tbody></table>
 
 <h2 id="profile">Profile</h2>
 
-<p>I am a full stack web developper with a life sciences background.</p>
+<p>I am a full-stack web developer with a background in life sciences. I specialize in designing, engineering, and deploying web applications and websites using Ruby (Ruby on Rails) and JavaScript.</p>
 
-<p>I design, engineer and deploy web applications and websites with Ruby (Ruby on Rails) and Javascript.</p>
+<p>Prior to COVID-19, I organized two meetups in Geneva: Geneva.rb for Ruby/Rails developers and GenevaWeb, a meetup covering various web technologies.</p>
 
-<p>Pre-COVID, I was the main organizer of <a href="https://www.meetup.com/genevaweb">GenevaWeb</a> a Meetup group for anyone interested in web technologies.</p>
-
-<h2 id="technical-skills">Technical skills</h2>
+<h2 id="technical-skills">Technical Skills</h2>
 
 <ul>
-<li>Main programming languages: Ruby, Javascript</li>
-<li>Frameworks/librairies: Ruby on Rails, React, Bootstrap, Tailwind</li>
+<li>Main Programming Languages: Ruby, JavaScript</li>
+<li>Frameworks/Libraries: Ruby on Rails, React, Bootstrap, Tailwind</li>
 <li>Databases: PostgreSQL</li>
 <li>Design: HTML5, CSS3</li>
-<li>Version control: Git, Github</li>
-<li>Operating system: Mac OS X</li>
+<li>Version Control: Git, GitHub</li>
+<li>Operating System: macOS</li>
+<li>Containerization: Docker</li>
+<li>Project Management: GitHub</li>
 </ul>
 
-<p>The majority of my work beeing done in the Ruby/Rails ecosystem, here is a non-exhaustive list of the Rubygems I often use: Devise, Cancancan, Pundit, Rspec, Capybara, Paperclip, Carrierwave, Activeadmin, ...</p>
+<p>As the majority of my work revolves around the Ruby/Rails ecosystem, here is a non-exhaustive list of the Rubygems I frequently use: Devise, Pundit, Cancancan, Rspec, Capybara, Activeadmin, ...</p>
 
 <h2 id="experience">Experience</h2>
 
 <h3 id="since-2015">Since 2015</h3>
 
-<p>I build web applications for the <a href="https://www.digitalepidemiologylab.org">Digital Epidemiology Laboratory</a> at EPFL, lead by Prof. Marcel Salathé.</p>
+<p>I build web applications for the <a href="https://www.digitalepidemiologylab.org">Digital Epidemiology Laboratory</a> at EPFL, led by Prof. Marcel Salathé.</p>
 
-<p>Between 2016 and 2021, I was seconded to the <a href="https://www.extensionschool.ch">EPFL Extension School</a> to develop the learner platform.</p>
+<p>From 2016 to 2021, I was seconded to the <a href="https://www.extensionschool.ch">EPFL Extension School</a> to develop the learner platform.</p>
 
-<p>My main tasks include:</p>
+<p>My main responsibilities include:</p>
 
 <ul>
-<li>Listing project specifications</li>
-<li>Designing user interfaces (UI) and experiences (UX)</li>
-<li>Backend developement (Ruby on Rails)</li>
-<li>Frontend development (React, Hotwire)</li>
-<li>Unit and integration tests</li>
-<li>Maintenance, bug tracking and performance optimization</li>
+<li>Designing user interfaces (UI) and user experiences (UX)</li>
+<li>Backend development using Ruby on Rails</li>
+<li>Frontend development using React and Hotwire</li>
+<li>Unit and integration testing with Rspec and Capybara</li>
+<li>Maintenance, bug tracking, and performance optimization</li>
+<li>Project management on GitHub, including issue specification, estimation, and code reviews</li>
 </ul>
 
-<p>Here are some of the <strong>publicly accessible</strong> projects I have worked on:</p>
+<p>Here are some of the publicly accessible projects I have worked on:</p>
 
 <ul>
 <li><a href="https://myfoodrepo.org/">myfoodrepo.org</a></li>
-<li><a href="https://www.foodrepo.org/">foodrepo.org</a></li>
-<li><a href="https://www.extensionschool.ch">extensionschool.ch</a></li>
-<li><a href="https://www.mydigitalfuture.ch/">mydigitalfuture.ch</a></li>
+<li><a href="https://foodrepo.org/">foodrepo.org</a></li>
+<li><a href="https://learn.extensionschool.ch">extensionschool.ch</a></li>
 </ul>
 
 <h3 id="between-2005-and-2014">Between 2005 and 2014</h3>
 
-<p>I worked as a web developer for the <a href="https://genev.unige.ch">Department of Genetics and Evolution</a> at the University of Geneva. There, I built websites and web applications for scientists with PHP and Ruby On Rails.</p>
+<p>I worked as a web developer for the <a href="https://genev.unige.ch">Department of Genetics and Evolution</a> at the University of Geneva. During this time, I built websites and web applications for scientists using PHP and Ruby on Rails.</p>
 
-<h2 id="studies">Studies</h2>
+<h2 id="education">Education</h2>
 
 <ul>
-<li>2004: PhD thesis in Biology, University of Geneva</li>
-<li>1998: Master in Biology, University of Geneva</li>
-<li>1997: Bachelor in Biology, University of Geneva</li>
-<li>1993: Maturité Fédérale, Collège Sismondi, Genève</li>
+<li>2004: PhD in Biology, University of Geneva</li>
+<li>1998: Master&#39;s in Biology, University of Geneva</li>
+<li>1997: Bachelor&#39;s in Biology, University of Geneva</li>
+<li>1993: Maturité Fédérale, Collège Sismondi, Geneva</li>
+</ul>
+
+<h2 id="languages">Languages</h2>
+
+<ul>
+<li>French: Native</li>
+<li>English: Fluent</li>
+<li>German: Basic</li>
+<li>Italian: Basic</li>
+</ul>
+
+<h2 id="hobbies">Hobbies</h2>
+
+<ul>
+<li>Kendo: I have been practicing kendo since the age of 8 and currently hold a 6 Dan rank. I am actively involved in teaching at the <a href="https://sdkbudo.ch/kendo">Geneva Kendo Club</a>. I&#39;m an also an ex national champion (individual and team), national team member and coach.</li>
 </ul>
 
   </body>
